@@ -82,4 +82,3 @@ s3cmd sync . s3://kolim-hku-grftrs
 
 ```
 
-# kolim-hku-grftrs
