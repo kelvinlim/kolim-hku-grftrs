@@ -82,3 +82,25 @@ s3cmd sync . s3://kolim-hku-grftrs
 
 ```
 
+## creating virtual environment
+
+https://peerherholz.github.io/workshop_weizmann/data/image_manipulation_nibabel.html#setup
+
+```
+# on hpc
+module load python3/3.10.9_anaconda2023.03_libmamba 
+
+# create venv
+python3.10 -mvenv .venv
+
+# activate
+.venv/bin/activate
+
+# create kernel for jupyter notebooks
+ipython kernel install --name=venv
+
+# install packages
+pip install nibabel ipykernel
+
+
+```
